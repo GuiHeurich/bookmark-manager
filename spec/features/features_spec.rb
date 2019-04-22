@@ -17,3 +17,13 @@ feature 'bookmarks page' do
     expect(page).to have_content 'https://en.wikipedia.org/wiki/Syntactic_Structures'
   end
 end
+
+# As a time-pressed user
+# So that I can save a website
+# I would like to add the site's address and title to bookmark manager
+
+feature 'add a bookmark' do
+  scenario 'to the database' do
+
+  end
+end
